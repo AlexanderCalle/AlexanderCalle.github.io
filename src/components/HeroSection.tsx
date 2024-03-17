@@ -1,9 +1,10 @@
+import HeroImage from '../assets/HeroImage.svg'
 
 const HeroSection = () => {
   return (
     <div className="h-screen bg-deep-dark flex flex-col items-center justify-center">
       <div className="flex items-center">
-        <img src="/src/assets/HeroImage.svg" alt="Hero image" />
+        <img src={HeroImage} alt="Hero image" />
         <div>
           <h2 className="text-[4em] font-bold text-white"><span className="text-deep-purple-400">Software</span> developer</h2>
           <h2 className="ml-20 text-[4em] font-bold text-white">brewed at young age</h2>

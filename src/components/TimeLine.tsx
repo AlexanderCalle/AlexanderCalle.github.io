@@ -1,3 +1,4 @@
+import TimelineImage from '../assets/Timeline.svg'
 
 const TimeLine = () => {
   return (
@@ -16,7 +17,7 @@ const TimeLine = () => {
               <p>Ghent, BE</p>
             </div>
           </div>
-          <img className="aspect-auto w-fit h-fit -ml-5" src="/src/assets/Timeline.svg" alt="timeline" />
+          <img className="aspect-auto w-fit h-fit -ml-5" src={TimelineImage} alt="timeline" />
           <div>
             <div className="mt-16 w-[500px] h-40 bg-off-white shadow-off-white/15 shadow-lg rounded-lg flex flex-col items-start p-4 gap-2">
               <p className="py-1 px-4 rounded bg-deep-purple-400/15 text-deep-purple-400 font-medium">2022 - Present</p>
